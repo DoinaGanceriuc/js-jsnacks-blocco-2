@@ -29,3 +29,4 @@ const squadreCalcio = [
         falli: 0
     },
 ]
+console.log(squadreCalcio);
