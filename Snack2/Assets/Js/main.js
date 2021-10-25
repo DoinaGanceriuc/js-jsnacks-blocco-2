@@ -30,3 +30,19 @@ const squadreCalcio = [
     },
 ]
 console.log(squadreCalcio);
+
+
+for (let index = 0; index < squadreCalcio.length; index++) {
+    const squadra = squadreCalcio[index];
+    /* console.log(squadra.punti);
+    console.log(squadra.falli); */
+
+    squadra.punti = Math.floor(Math.random() * 10) + 1;
+    squadra.falli = Math.floor(Math.random() * 10) + 1;
+
+    console.log(squadra.punti);
+    console.log(squadra.falli);
+
+  
+    console.log(squadra);
+} 
